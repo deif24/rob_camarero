@@ -33,7 +33,19 @@ Para este paquete se han utilizado las siguientes bibliotecas:
   sudo apt install ros-noetic-turtlebot3-msgs
   sudo apt install ros-noetic-turtlebot3
   ```
-
+  
+- PyAudio
+  ```bash
+  sudo apt install portaudio19-dev
+  sudo apt install python3-all-dev
+  sudo apt install python3-pyaudio
+  ```
+  
+- SMACH:<br>
+  ```bash
+  sudo apt-get install ros-noetic-smach ros-noetic-smach-ros ros-noetic-executive-smach ros-noetic-smach-viewer
+  ```
+  
 - VOSK:<br>
   [Link a su web oficial](https://alphacephei.com/vosk/).
 <p align="justify">
@@ -41,12 +53,7 @@ VOSK es una biblioteca de reconocimiento de voz offline así que para su correct
 </p>
   
 - Mediapipe:<br>
-  [Link a su repositorio](https://github.com/hrnr/m-explore).
-
-- SMACH:<br>
-  ```bash
-  sudo apt-get install ros-noetic-smach ros-noetic-smach-ros ros-noetic-executive-smach ros-noetic-smach-viewer
-  ```
+  [Link a su repositorio](https://github.com/google-ai-edge/mediapipe).
 
 # Guia de instalación
 El primer paso para poder utilizar el paquete es crear un workspace de ros donde poder instalarlo
@@ -88,5 +95,6 @@ Una vez se tenga configurado correctamente el reconocimiento de voz, se puede ej
 ```bash
 roslaunch rob_camarero rob_camarero.launch
 ```
-
+<p align="justify">
 Una vez ejecutados todos los comandos anteriores se debería de tener abierto una ventana de Gazebo, de RViz así como la interfaz del programa y la cámara que estará realizando el reconocimiento de gestos. El programa principial debería de estar ejecutándose en el estado de reposo donde el turtlebot se encuentra girando sobre sí mismo esperando a encontrar una mano levantada o a que se pulse alguno de los botones de la interfaz referentes a las mesas.
+</p>
