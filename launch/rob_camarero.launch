@@ -1,0 +1,16 @@
+<launch>
+    <!-- Ejecuta el script 'fsm' -->
+    <node pkg="rob_camarero" type="fsm.py" name="fsm_node" output="screen" />
+
+    <!-- Ejecuta el script 'interfaz_mov' -->
+    <node pkg="rob_camarero" type="interfaz_mov.py" name="interfaz_mov_node" output="screen" />
+
+    <!-- Ejecuta el script 'manos' -->
+    <node pkg="rob_camarero" type="manos.py" name="manos_node" output="screen" />
+
+    <!-- Ejecuta el script 'navegacion' -->
+    <node pkg="rob_camarero" type="navegacion.py" name="navegacion_node" output="screen" />
+
+    <!-- Ejecuta el script 'voz' -->
+    <node pkg="rob_camarero" type="voz.py" name="voz_node" output="screen" />
+</launch>

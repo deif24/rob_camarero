@@ -1,0 +1,19 @@
+<package format="2">
+  <name>rob_camarero</name>
+  <version>0.0.1</version>
+  <description>Paquete para el proyecto de robótica móvil</description>
+
+  <maintainer email="david@example.com">David</maintainer>
+  <license>MIT</license>
+
+  <!-- Dependencias de construcción -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <!-- Dependencias de ejecución -->
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
+
