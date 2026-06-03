@@ -98,3 +98,6 @@ roslaunch rob_camarero rob_camarero.launch
 <p align="justify">
 Una vez ejecutados todos los comandos anteriores se debería de tener abierto una ventana de Gazebo, de RViz así como la interfaz del programa y la cámara que estará realizando el reconocimiento de gestos. El programa principial debería de estar ejecutándose en el estado de reposo donde el turtlebot se encuentra girando sobre sí mismo esperando a encontrar una mano levantada o a que se pulse alguno de los botones de la interfaz referentes a las mesas.
 </p>
+
+## Ejemplo de Funcionamiento
+<video src="https://github.com/user-attachments/assets/8cd249fb-e7bc-4654-ba7f-ecc6e0f9307a" controls width="600"></video>
